@@ -11,6 +11,8 @@ describe('Love triangles', () => {
     const count = getLoveTrianglesCount([2, 3, 1, 5, 6, 4]);
     assert.equal(count, 2);
   });
+  
+
 
   it('3', () => {
     const count = getLoveTrianglesCount([2, 3, 1, 5, 6, 4, 2, 3, 1, 5, 6, 4, 2, 3, 1, 5, 6, 4]);
@@ -27,6 +29,7 @@ describe('Love triangles', () => {
     assert.equal(count, 0);
   });
 
+
   it('6', () => {
     const count = getLoveTrianglesCount([2, 3, 1, 9, 8, 6, 3, 8, 1, 5]);
     assert.equal(count, 1);
@@ -41,6 +44,8 @@ describe('Love triangles', () => {
     const count = getLoveTrianglesCount([2, 3, 1, 5, 6, 4, 8, 9, 7, 11, 12, 10, 13, 9, 13, 2, 15, 13, 12, 11]);
     assert.equal(count, 4);
   });
+
+
 
   it('9', () => {
     const count = getLoveTrianglesCount([6, 14, 12, 21, 3, 20, 7, 15, 16, 16, 14, 4, 11, 13, 18, 2, 1, 8, 3, 1, 12]);
